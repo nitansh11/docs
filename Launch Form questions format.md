@@ -1,20 +1,20 @@
  # Launch Form question format
  
 {   
- &nbsp; &nbsp; &nbsp; &nbsp;name: string;
- &nbsp; &nbsp; &nbsp; &nbsp;type: string;
- &nbsp; &nbsp; &nbsp; &nbsp;title: string;
- &nbsp; &nbsp; &nbsp; &nbsp;footerText?: string;
- &nbsp; &nbsp; &nbsp; &nbsp;isCompulsary?: boolean;
- &nbsp; &nbsp; &nbsp; &nbsp;placeholder?: string;
- &nbsp; &nbsp; &nbsp; &nbsp;radioOptions?: {
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;key: string;
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;value: string;
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;subtext?: string;
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;customSize?: string;
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}[];
- &nbsp; &nbsp; &nbsp; &nbsp;dropdownOptions?: string[];
-}
+ &nbsp; &nbsp; &nbsp; &nbsp;name: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;type: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;title: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;footerText?: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;isCompulsary?: boolean;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;placeholder?: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;radioOptions?: {<br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;key: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;value: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;subtext?: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;customSize?: string;<br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}[];<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;dropdownOptions?: string[];<br />
+}<br />
 
 ## Uses:
 
