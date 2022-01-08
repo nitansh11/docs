@@ -25,9 +25,9 @@ Explanation:
 *   **title**: this is the question text
 *   **footerText**: this is optional field, if we want to put a note below the question
 *   **placeholder**: Required only if type is "input",
-*   **radioOptions**: Required only if type is "radio", below are the value needed for a single radio value
-*       key: should be unique text for each option
-        value: text which will be shown to user for a option
-	    subtext: subtext shown below option value to user
-        customSize: "regular" or "large" of a radio button.
+*   **radioOptions**: Required only if type is "radio", below are the value needed for a single radio value<br />
+        &nbsp; &nbsp; &nbsp; &nbsp;key: should be unique text for each option<br />
+        &nbsp; &nbsp; &nbsp; &nbsp;value: text which will be shown to user for a option<br />
+	&nbsp; &nbsp; &nbsp; &nbsp;subtext: subtext shown below option value to user<br />
+        &nbsp; &nbsp; &nbsp; &nbsp;customSize: "regular" or "large" of a radio button.<br />
 *   **dropdownOptions**: Required only if type is "dropdown", it will be a array/collection if values which we want to show to user.
